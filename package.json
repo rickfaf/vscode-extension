@@ -56,13 +56,13 @@
     ],
     "typescriptServerPlugins": [
       {
-        "name": "typescript-styled-plugin",
+        "name": "typescript-styled-plugin-modified",
         "enableForWorkspaceTypeScriptVersions": true
       }
     ]
   },
   "dependencies": {
-    "typescript-styled-plugin": "0.15.0"
+    "typescript-styled-plugin-modified": "file:../typescript-styled-plugin"
   },
   "devDependencies": {
     "prettier": "^1.14.3",
